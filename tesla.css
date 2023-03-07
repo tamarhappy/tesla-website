@@ -1,0 +1,95 @@
+.nav-img {
+    width: 120px;
+    height: 120px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 24px 16px 24px;
+}
+
+.banner-wrap {
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/e57227be-7840-4ea7-b46a-11ab25e76039/bvlatuR/std/2880x1800/Homepage-Model-S-Desktop-LHD?quality=auto-medium&amp;format=auto);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    width: 98vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    height: 56px;
+}
+
+.nav-item {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: rgb(111, 179, 211);
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
+
+.middle-menu {
+    margin-left: 100px;
+}
+
+main {
+    text-align: center;
+    height: calc(110vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-section {
+    margin-top: calc(155px - 56px);
+}
+
+.actions-area {
+    margin-bottom: 100px;
+}
+
+#custom {
+    padding: 9px;
+    border-radius: 4px;
+    border: none;
+    width: 230px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(73, 69, 69);
+    color: white;
+    cursor: pointer;
+}
+
+#exist {
+    padding: 9px;
+    border-radius: 4px;
+    border: none;
+    width: 230px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(73, 69, 69);
+    cursor: pointer;
+}
